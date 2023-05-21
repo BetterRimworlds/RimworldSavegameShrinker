@@ -1,0 +1,13 @@
+#################
+## Jaxxa's Files to ignore.
+#################
+# Lines that start with '#' are comments.
+
+*.suo
+*.dll
+*.exe
+
+**/bin
+**/obj
+
+.vs
