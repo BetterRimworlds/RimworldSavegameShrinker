@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
+    <packageId>HopeSeekr.BetterRimworlds.SavegameShrinker</packageId>
     <name>Savegame Shrinker</name>
     <supportedVersions>
         <li>1.2</li>
