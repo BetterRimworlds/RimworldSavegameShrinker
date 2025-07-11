@@ -121,7 +121,7 @@ marginal space savings and speed increases for Rimworld v1.2 and v1.3.
 
 ## Translations
 
-This mod is translated into a wide array of translations. Here is the table:
+This mod is translated into a wide array of languages. Here is the table:
 
 | Language              | Native Speakers | Total with 2nd Language | Notes                                   |
 |-----------------------|-----------------|-------------------------|-----------------------------------------|

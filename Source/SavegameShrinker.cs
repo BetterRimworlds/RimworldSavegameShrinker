@@ -35,9 +35,7 @@ public class SaveGameShrinker
 
         XmlDocument doc = new XmlDocument();
         doc.Load(fileLocation);
-        XmlNode root = doc.DocumentElement;
-
-        this.root = root;
+        this.root = doc.DocumentElement;
 
         this.currentTick = int.Parse(this.grabNodes("/savegame/game/tickManager/ticksGame").Item(0)?.InnerText ?? "0") + 15_000;
         if (this. settings.debugMode) Log.Message("Current game tick: " + currentTick);

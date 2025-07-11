@@ -1,7 +1,9 @@
 #!/bin/bash
+set -euo pipefail
+
 
 ORIG_PWD=$PWD
-MOD_VERSION=$(git log | grep Version | head -1 | sed 's/    Version \([0-9]\+\.[0-9]\+\.[0-9]\+\)\.*/v\1/')
+MOD_VERSION=$(git log | git log --grep='^ *Version' -n1 --format='%s'  | sed -E 's/.*Version ([0-9]+\.[0-9]+\.[0-9]+).*/v\1/')
 MOD=$(basename $PWD)
 MOD_ZIP=${MOD}-"${MOD_VERSION}".zip
 
