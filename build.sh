@@ -15,7 +15,7 @@ MOD=$(basename $PWD)
 solutionPath="Source/${MOD}.sln"
 
 # Define an array of configurations
-configurations=("v1.2" "v1.3" "v1.4" "v1.5")
+configurations=("v1.2" "v1.3" "v1.4" "v1.5" "v1.6")
 
 dotnet restore "$solutionPath"
 
