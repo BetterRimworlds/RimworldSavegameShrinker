@@ -274,8 +274,8 @@ public class SaveGameShrinker
                      .Replace("Thing_", "");
                 // string thingId = node.SelectSingleNode("id").InnerText;
                 if (this. settings.debugMode) Log.Message(thingId);
-                pawnsToKeepIds.Add(thingId, true);
-            }
+                if (!pawnsToKeepIds.ContainsKey(thingId))
+                    pawnsToKeepIds[thingId] = true;            }
         }
 
         this.removeNodes(currentNodes, "id", pawnsToKeepIds);

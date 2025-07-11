@@ -18,8 +18,10 @@ public class Settings: ModSettings
 
     public bool debugMode = false;
 
-    override public void ExposeData()
+    public override void ExposeData()
     {
+        base.ExposeData();
+
         Scribe_Values.Look(ref shrinkHistoricalArchives,   "brw.saveshrinker.shrinkHistoricalArchives", true);
         Scribe_Values.Look(ref shrinkTales,                "brw.saveshrinker.shrinkTales", false);
         Scribe_Values.Look(ref shrinkPlayLog,              "brw.saveshrinker.shrinkPlayLog", true);
