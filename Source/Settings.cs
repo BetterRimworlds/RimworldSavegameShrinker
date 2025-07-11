@@ -2,53 +2,52 @@ using System.Collections;
 using UnityEngine;
 using Verse;
 
-namespace BetterRimworlds.SavegameShrinker
+namespace BetterRimworlds.SavegameShrinker;
+
+public class Settings: ModSettings
 {
-    public class Settings: ModSettings
+    public bool shrinkHistoricalArchives;
+    public bool shrinkTales;
+    public bool shrinkPlayLog;
+    public bool shrinkBattleLog;
+    public bool shrinkQuestsAutomatic;
+    public bool shrinkQuestsUnaccepted;
+    public bool shrinkWorldPawnsMothballed;
+    public bool shrinkWorldPawnsDead;
+    public bool removeFilth;
+
+    public bool debugMode = false;
+
+    override public void ExposeData()
     {
-        public bool shrinkHistoricalArchives;
-        public bool shrinkTales;
-        public bool shrinkPlayLog;
-        public bool shrinkBattleLog;
-        public bool shrinkQuestsAutomatic;
-        public bool shrinkQuestsUnaccepted;
-        public bool shrinkWorldPawnsMothballed;
-        public bool shrinkWorldPawnsDead;
-        public bool removeFilth;
+        Scribe_Values.Look(ref shrinkHistoricalArchives,   "brw.saveshrinker.shrinkHistoricalArchives", true);
+        Scribe_Values.Look(ref shrinkTales,                "brw.saveshrinker.shrinkTales", false);
+        Scribe_Values.Look(ref shrinkPlayLog,              "brw.saveshrinker.shrinkPlayLog", true);
+        Scribe_Values.Look(ref shrinkBattleLog,            "brw.saveshrinker.shrinkBattleLog", true);
+        Scribe_Values.Look(ref shrinkQuestsAutomatic,      "brw.saveshrinker.shrinkQuestsAutomatic", true);
+        Scribe_Values.Look(ref shrinkQuestsUnaccepted,     "brw.saveshrinker.shrinkQuestsUnaccepted", false);
+        Scribe_Values.Look(ref shrinkWorldPawnsMothballed, "brw.saveshrinker.shrinkWorldPawnsMothballed", false);
+        Scribe_Values.Look(ref shrinkWorldPawnsDead,       "brw.saveshrinker.shrinkWorldPawnsDead", true);
+        Scribe_Values.Look(ref removeFilth,                "brw.saveshrinker.removeFilth", true);
+        Scribe_Values.Look(ref debugMode,                  "brw.saveshrinker.debugMode", false);
+    }
 
-        public bool debugMode = false;
+    public void DoSettingsWindowContents(Rect inRect)
+    {
+        Listing_Standard listing_Standard = new Listing_Standard();
+        listing_Standard.Begin(inRect);
 
-        override public void ExposeData()
-        {
-            Scribe_Values.Look(ref shrinkHistoricalArchives,   "brw.saveshrinker.shrinkHistoricalArchives", true);
-            Scribe_Values.Look(ref shrinkTales,                "brw.saveshrinker.shrinkTales", false);
-            Scribe_Values.Look(ref shrinkPlayLog,              "brw.saveshrinker.shrinkPlayLog", true);
-            Scribe_Values.Look(ref shrinkBattleLog,            "brw.saveshrinker.shrinkBattleLog", true);
-            Scribe_Values.Look(ref shrinkQuestsAutomatic,      "brw.saveshrinker.shrinkQuestsAutomatic", true);
-            Scribe_Values.Look(ref shrinkQuestsUnaccepted,     "brw.saveshrinker.shrinkQuestsUnaccepted", false);
-            Scribe_Values.Look(ref shrinkWorldPawnsMothballed, "brw.saveshrinker.shrinkWorldPawnsMothballed", false);
-            Scribe_Values.Look(ref shrinkWorldPawnsDead,       "brw.saveshrinker.shrinkWorldPawnsDead", true);
-            Scribe_Values.Look(ref removeFilth,                "brw.saveshrinker.removeFilth", true);
-            Scribe_Values.Look(ref debugMode,                  "brw.saveshrinker.debugMode", false);
-        }
+        listing_Standard.CheckboxLabeled("SavegameShrinker.ShrinkHistoricalArchives".Translate(), ref shrinkHistoricalArchives);
+        listing_Standard.CheckboxLabeled("SavegameShrinker.ShrinkPlayLog".Translate(), ref shrinkPlayLog);
+        listing_Standard.CheckboxLabeled("SavegameShrinker.ShrinkBattleLog".Translate(), ref shrinkBattleLog);
+        listing_Standard.CheckboxLabeled("SavegameShrinker.ShrinkQuestsAutomatic".Translate(), ref shrinkQuestsAutomatic);
+        listing_Standard.CheckboxLabeled("SavegameShrinker.RemoveFilth".Translate(), ref removeFilth);
+        listing_Standard.CheckboxLabeled("SavegameShrinker.ShrinkTales".Translate(), ref shrinkTales);
+        listing_Standard.CheckboxLabeled("SavegameShrinker.ShrinkQuestsUnaccepted".Translate(), ref shrinkQuestsUnaccepted);
+        listing_Standard.CheckboxLabeled("SavegameShrinker.ShrinkWorldPawnsDead".Translate(), ref shrinkWorldPawnsDead);
+        listing_Standard.CheckboxLabeled("SavegameShrinker.ShrinkWorldPawnsMothballed".Translate(), ref shrinkWorldPawnsMothballed);
+        listing_Standard.CheckboxLabeled("SavegameShrinker.DebugMode".Translate(), ref debugMode);
 
-        public void DoSettingsWindowContents(Rect inRect)
-        {
-            Listing_Standard listing_Standard = new Listing_Standard();
-            listing_Standard.Begin(inRect);
-
-            listing_Standard.CheckboxLabeled("SavegameShrinker.ShrinkHistoricalArchives".Translate(), ref shrinkHistoricalArchives);
-            listing_Standard.CheckboxLabeled("SavegameShrinker.ShrinkPlayLog".Translate(), ref shrinkPlayLog);
-            listing_Standard.CheckboxLabeled("SavegameShrinker.ShrinkBattleLog".Translate(), ref shrinkBattleLog);
-            listing_Standard.CheckboxLabeled("SavegameShrinker.ShrinkQuestsAutomatic".Translate(), ref shrinkQuestsAutomatic);
-            listing_Standard.CheckboxLabeled("SavegameShrinker.RemoveFilth".Translate(), ref removeFilth);
-            listing_Standard.CheckboxLabeled("SavegameShrinker.ShrinkTales".Translate(), ref shrinkTales);
-            listing_Standard.CheckboxLabeled("SavegameShrinker.ShrinkQuestsUnaccepted".Translate(), ref shrinkQuestsUnaccepted);
-            listing_Standard.CheckboxLabeled("SavegameShrinker.ShrinkWorldPawnsDead".Translate(), ref shrinkWorldPawnsDead);
-            listing_Standard.CheckboxLabeled("SavegameShrinker.ShrinkWorldPawnsMothballed".Translate(), ref shrinkWorldPawnsMothballed);
-            listing_Standard.CheckboxLabeled("SavegameShrinker.DebugMode".Translate(), ref debugMode);
-
-            listing_Standard.End();
-        }
+        listing_Standard.End();
     }
 }

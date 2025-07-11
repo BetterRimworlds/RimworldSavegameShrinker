@@ -4,7 +4,7 @@
     <TargetFramework>net480</TargetFramework>
     <LangVersion>10</LangVersion>
     <ProjectGuid>{675CE9D5-460C-496A-A6A9-8D3873EDCC87}</ProjectGuid>
-    <RootNamespace>SavegameShrinker</RootNamespace>
+    <RootNamespace>BetterRimworlds.SavegameShrinker</RootNamespace>
     <AssemblyName>SavegameShrinker</AssemblyName>
     <ImplicitUsings>enable</ImplicitUsings>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
