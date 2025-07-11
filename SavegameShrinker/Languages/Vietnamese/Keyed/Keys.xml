@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <SavegameShrinker.Shrink>Nén ({0}MB)</SavegameShrinker.Shrink>
+    <SavegameShrinker.ShrinkHistoricalArchives>(an toàn) Nén lưu trữ lịch sử?</SavegameShrinker.ShrinkHistoricalArchives>
+    <SavegameShrinker.ShrinkPlayLog>(an toàn) Nén nhật ký trò chơi?</SavegameShrinker.ShrinkPlayLog>
+    <SavegameShrinker.ShrinkBattleLog>(an toàn) Nén nhật ký chiến đấu?</SavegameShrinker.ShrinkBattleLog>
+    <SavegameShrinker.ShrinkQuestsAutomatic>(an toàn) Nén nhiệm vụ tự động?</SavegameShrinker.ShrinkQuestsAutomatic>
+    <SavegameShrinker.RemoveFilth>(an toàn) Loại bỏ chất bẩn?</SavegameShrinker.RemoveFilth>
+    <SavegameShrinker.ShrinkTales>(ít an toàn) Nén câu chuyện?</SavegameShrinker.ShrinkTales>
+    <SavegameShrinker.ShrinkQuestsUnaccepted>(ít an toàn) Nén nhiệm vụ chưa chấp nhận?</SavegameShrinker.ShrinkQuestsUnaccepted>
+    <SavegameShrinker.ShrinkWorldPawnsDead>(tiết kiệm lớn) Nén nhân vật thế giới đã chết?</SavegameShrinker.ShrinkWorldPawnsDead>
+    <SavegameShrinker.ShrinkWorldPawnsMothballed>(nguy hiểm) Nén nhân vật thế giới đã được bảo lưu?</SavegameShrinker.ShrinkWorldPawnsMothballed>
+    <SavegameShrinker.DebugMode>In tin nhắn gỡ lỗi?</SavegameShrinker.DebugMode>
+</LanguageData>
+

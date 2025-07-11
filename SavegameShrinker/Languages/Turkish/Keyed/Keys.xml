@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <SavegameShrinker.Shrink>Sıkıştır ({0} MB)</SavegameShrinker.Shrink>
+    <SavegameShrinker.ShrinkHistoricalArchives>(güvenli) Tarihi arşivleri sıkıştır?</SavegameShrinker.ShrinkHistoricalArchives>
+    <SavegameShrinker.ShrinkPlayLog>(güvenli) Oyun kaydını sıkıştır?</SavegameShrinker.ShrinkPlayLog>
+    <SavegameShrinker.ShrinkBattleLog>(güvenli) Savaş kaydını sıkıştır?</SavegameShrinker.ShrinkBattleLog>
+    <SavegameShrinker.ShrinkQuestsAutomatic>(güvenli) Otomatik görevleri sıkıştır?</SavegameShrinker.ShrinkQuestsAutomatic>
+    <SavegameShrinker.RemoveFilth>(güvenli) Kirleri kaldır?</SavegameShrinker.RemoveFilth>
+    <SavegameShrinker.ShrinkTales>(daha az güvenli) Anlatıları sıkıştır?</SavegameShrinker.ShrinkTales>
+    <SavegameShrinker.ShrinkQuestsUnaccepted>(daha az güvenli) Kabul edilmeyen görevleri sıkıştır?</SavegameShrinker.ShrinkQuestsUnaccepted>
+    <SavegameShrinker.ShrinkWorldPawnsDead>(büyük tasarruf) Ölü dünya karakterlerini sıkıştır?</SavegameShrinker.ShrinkWorldPawnsDead>
+    <SavegameShrinker.ShrinkWorldPawnsMothballed>(tehlikeli) Beklemedeki dünya karakterlerini sıkıştır?</SavegameShrinker.ShrinkWorldPawnsMothballed>
+    <SavegameShrinker.DebugMode>Hata ayıklama mesajlarını yazdır?</SavegameShrinker.DebugMode>
+</LanguageData>
+

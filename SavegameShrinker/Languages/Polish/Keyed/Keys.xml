@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <SavegameShrinker.Shrink>Zmniejsz ({0} MB)</SavegameShrinker.Shrink>
+    <SavegameShrinker.ShrinkHistoricalArchives>(bezpieczne) Zmniejszyć archiwa historyczne?</SavegameShrinker.ShrinkHistoricalArchives>
+    <SavegameShrinker.ShrinkPlayLog>(bezpieczne) Zmniejszyć dziennik rozgrywki?</SavegameShrinker.ShrinkPlayLog>
+    <SavegameShrinker.ShrinkBattleLog>(bezpieczne) Zmniejszyć dziennik bitew?</SavegameShrinker.ShrinkBattleLog>
+    <SavegameShrinker.ShrinkQuestsAutomatic>(bezpieczne) Zmniejszyć automatyczne zadania?</SavegameShrinker.ShrinkQuestsAutomatic>
+    <SavegameShrinker.RemoveFilth>(bezpieczne) Usunąć brud?</SavegameShrinker.RemoveFilth>
+    <SavegameShrinker.ShrinkTales>(mniej bezpieczne) Zmniejszyć opowieści?</SavegameShrinker.ShrinkTales>
+    <SavegameShrinker.ShrinkQuestsUnaccepted>(mniej bezpieczne) Zmniejszyć niezaakceptowane zadania?</SavegameShrinker.ShrinkQuestsUnaccepted>
+    <SavegameShrinker.ShrinkWorldPawnsDead>(ogromna oszczędność) Zmniejszyć martwe postacie świata?</SavegameShrinker.ShrinkWorldPawnsDead>
+    <SavegameShrinker.ShrinkWorldPawnsMothballed>(niebezpieczne) Zmniejszyć skonserwowane postacie świata?</SavegameShrinker.ShrinkWorldPawnsMothballed>
+    <SavegameShrinker.DebugMode>Wyświetlić komunikaty debugowania?</SavegameShrinker.DebugMode>
+</LanguageData>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <SavegameShrinker.Shrink>Стиснути ({0} МБ)</SavegameShrinker.Shrink>
+    <SavegameShrinker.ShrinkHistoricalArchives>(безпечне) Стиснути історичні архіви?</SavegameShrinker.ShrinkHistoricalArchives>
+    <SavegameShrinker.ShrinkPlayLog>(безпечне) Стиснути журнал гри?</SavegameShrinker.ShrinkPlayLog>
+    <SavegameShrinker.ShrinkBattleLog>(безпечне) Стиснути журнал боїв?</SavegameShrinker.ShrinkBattleLog>
+    <SavegameShrinker.ShrinkQuestsAutomatic>(безпечне) Стиснути автоматичні завдання?</SavegameShrinker.ShrinkQuestsAutomatic>
+    <SavegameShrinker.RemoveFilth>(безпечне) Видалити бруд?</SavegameShrinker.RemoveFilth>
+    <SavegameShrinker.ShrinkTales>(менш безпечне) Стиснути оповідання?</SavegameShrinker.ShrinkTales>
+    <SavegameShrinker.ShrinkQuestsUnaccepted>(менш безпечне) Стиснути неприйняті завдання?</SavegameShrinker.ShrinkQuestsUnaccepted>
+    <SavegameShrinker.ShrinkWorldPawnsDead>(значна економія) Стиснути мертвих пішаків світу?</SavegameShrinker.ShrinkWorldPawnsDead>
+    <SavegameShrinker.ShrinkWorldPawnsMothballed>(небезпечне) Стиснути консервованих пішаків світу?</SavegameShrinker.ShrinkWorldPawnsMothballed>
+    <SavegameShrinker.DebugMode>Друкувати повідомлення налагодження?</SavegameShrinker.DebugMode>
+</LanguageData>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <SavegameShrinker.Shrink>Verkleinen ({0} MB)</SavegameShrinker.Shrink>
+    <SavegameShrinker.ShrinkHistoricalArchives>(veilig) Historische archieven verkleinen?</SavegameShrinker.ShrinkHistoricalArchives>
+    <SavegameShrinker.ShrinkPlayLog>(veilig) Spel logboek verkleinen?</SavegameShrinker.ShrinkPlayLog>
+    <SavegameShrinker.ShrinkBattleLog>(veilig) Gevechtslogboek verkleinen?</SavegameShrinker.ShrinkBattleLog>
+    <SavegameShrinker.ShrinkQuestsAutomatic>(veilig) Automatische missies verkleinen?</SavegameShrinker.ShrinkQuestsAutomatic>
+    <SavegameShrinker.RemoveFilth>(veilig) Vuil verwijderen?</SavegameShrinker.RemoveFilth>
+    <SavegameShrinker.ShrinkTales>(minder veilig) Verhalen verkleinen?</SavegameShrinker.ShrinkTales>
+    <SavegameShrinker.ShrinkQuestsUnaccepted>(minder veilig) Niet-geaccepteerde missies verkleinen?</SavegameShrinker.ShrinkQuestsUnaccepted>
+    <SavegameShrinker.ShrinkWorldPawnsDead>(grote besparing) Dode wereldpionnen verkleinen?</SavegameShrinker.ShrinkWorldPawnsDead>
+    <SavegameShrinker.ShrinkWorldPawnsMothballed>(gevaarlijk) Geconserveerde wereldpionnen verkleinen?</SavegameShrinker.ShrinkWorldPawnsMothballed>
+    <SavegameShrinker.DebugMode>Debugberichten afdrukken?</SavegameShrinker.DebugMode>
+</LanguageData>
+

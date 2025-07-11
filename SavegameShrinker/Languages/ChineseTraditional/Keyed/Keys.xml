@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <SavegameShrinker.Shrink>壓縮 ({0}MB)</SavegameShrinker.Shrink>
+    <SavegameShrinker.ShrinkHistoricalArchives>（安全）壓縮歷史檔案？</SavegameShrinker.ShrinkHistoricalArchives>
+    <SavegameShrinker.ShrinkPlayLog>（安全）壓縮遊戲日誌？</SavegameShrinker.ShrinkPlayLog>
+    <SavegameShrinker.ShrinkBattleLog>（安全）壓縮戰鬥日誌？</SavegameShrinker.ShrinkBattleLog>
+    <SavegameShrinker.ShrinkQuestsAutomatic>（安全）壓縮自動任務？</SavegameShrinker.ShrinkQuestsAutomatic>
+    <SavegameShrinker.RemoveFilth>（安全）移除髒汙？</SavegameShrinker.RemoveFilth>
+    <SavegameShrinker.ShrinkTales>（不太安全）壓縮故事？</SavegameShrinker.ShrinkTales>
+    <SavegameShrinker.ShrinkQuestsUnaccepted>（不太安全）壓縮未接受任務？</SavegameShrinker.ShrinkQuestsUnaccepted>
+    <SavegameShrinker.ShrinkWorldPawnsDead>（大量節省）壓縮死亡的世界角色？</SavegameShrinker.ShrinkWorldPawnsDead>
+    <SavegameShrinker.ShrinkWorldPawnsMothballed>（危險）壓縮封存的世界角色？</SavegameShrinker.ShrinkWorldPawnsMothballed>
+    <SavegameShrinker.DebugMode>列印偵錯訊息？</SavegameShrinker.DebugMode>
+</LanguageData>
+
