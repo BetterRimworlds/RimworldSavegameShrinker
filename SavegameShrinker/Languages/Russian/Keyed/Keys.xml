@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <SavegameShrinker.Shrink>Сжать ({0} МБ)</SavegameShrinker.Shrink>
+    <SavegameShrinker.ShrinkHistoricalArchives>(безопасно) Сжать исторические архивы?</SavegameShrinker.ShrinkHistoricalArchives>
+    <SavegameShrinker.ShrinkPlayLog>(безопасно) Сжать журнал игры?</SavegameShrinker.ShrinkPlayLog>
+    <SavegameShrinker.ShrinkBattleLog>(безопасно) Сжать журнал битв?</SavegameShrinker.ShrinkBattleLog>
+    <SavegameShrinker.ShrinkQuestsAutomatic>(безопасно) Сжать автоматические задания?</SavegameShrinker.ShrinkQuestsAutomatic>
+    <SavegameShrinker.RemoveFilth>(безопасно) Удалить грязь?</SavegameShrinker.RemoveFilth>
+    <SavegameShrinker.ShrinkTales>(менее безопасно) Сжать рассказы?</SavegameShrinker.ShrinkTales>
+    <SavegameShrinker.ShrinkQuestsUnaccepted>(менее безопасно) Сжать непринятые задания?</SavegameShrinker.ShrinkQuestsUnaccepted>
+    <SavegameShrinker.ShrinkWorldPawnsDead>(большая экономия) Сжать мертвых пешек мира?</SavegameShrinker.ShrinkWorldPawnsDead>
+    <SavegameShrinker.ShrinkWorldPawnsMothballed>(опасно) Сжать законсервированных пешек мира?</SavegameShrinker.ShrinkWorldPawnsMothballed>
+    <SavegameShrinker.DebugMode>Выводить отладочные сообщения?</SavegameShrinker.DebugMode>
+</LanguageData>
+

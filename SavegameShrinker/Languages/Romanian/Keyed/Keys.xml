@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <SavegameShrinker.Shrink>Comprimă ({0} MB)</SavegameShrinker.Shrink>
+    <SavegameShrinker.ShrinkHistoricalArchives>(sigur) Comprimă arhivele istorice?</SavegameShrinker.ShrinkHistoricalArchives>
+    <SavegameShrinker.ShrinkPlayLog>(sigur) Comprimă jurnalul de joc?</SavegameShrinker.ShrinkPlayLog>
+    <SavegameShrinker.ShrinkBattleLog>(sigur) Comprimă jurnalul de bătălii?</SavegameShrinker.ShrinkBattleLog>
+    <SavegameShrinker.ShrinkQuestsAutomatic>(sigur) Comprimă misiunile automate?</SavegameShrinker.ShrinkQuestsAutomatic>
+    <SavegameShrinker.RemoveFilth>(sigur) Elimină murdăria?</SavegameShrinker.RemoveFilth>
+    <SavegameShrinker.ShrinkTales>(mai puțin sigur) Comprimă povestirile?</SavegameShrinker.ShrinkTales>
+    <SavegameShrinker.ShrinkQuestsUnaccepted>(mai puțin sigur) Comprimă misiunile neacceptate?</SavegameShrinker.ShrinkQuestsUnaccepted>
+    <SavegameShrinker.ShrinkWorldPawnsDead>(economii mari) Comprimă pionii morți din lume?</SavegameShrinker.ShrinkWorldPawnsDead>
+    <SavegameShrinker.ShrinkWorldPawnsMothballed>(periculos) Comprimă pionii inactivi din lume?</SavegameShrinker.ShrinkWorldPawnsMothballed>
+    <SavegameShrinker.DebugMode>Afișează mesaje de depanare?</SavegameShrinker.DebugMode>
+</LanguageData>
+

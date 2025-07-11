@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <SavegameShrinker.Shrink>Verkleinern ({0} MB)</SavegameShrinker.Shrink>
+    <SavegameShrinker.ShrinkHistoricalArchives>(sicher) Historische Archive verkleinern?</SavegameShrinker.ShrinkHistoricalArchives>
+    <SavegameShrinker.ShrinkPlayLog>(sicher) Spielprotokoll verkleinern?</SavegameShrinker.ShrinkPlayLog>
+    <SavegameShrinker.ShrinkBattleLog>(sicher) Kampfprotokoll verkleinern?</SavegameShrinker.ShrinkBattleLog>
+    <SavegameShrinker.ShrinkQuestsAutomatic>(sicher) Automatische Quests verkleinern?</SavegameShrinker.ShrinkQuestsAutomatic>
+    <SavegameShrinker.RemoveFilth>(sicher) Schmutz entfernen?</SavegameShrinker.RemoveFilth>
+    <SavegameShrinker.ShrinkTales>(weniger sicher) Erzählungen verkleinern?</SavegameShrinker.ShrinkTales>
+    <SavegameShrinker.ShrinkQuestsUnaccepted>(weniger sicher) Nicht angenommene Quests verkleinern?</SavegameShrinker.ShrinkQuestsUnaccepted>
+    <SavegameShrinker.ShrinkWorldPawnsDead>(große Einsparung) Tote Weltbewohner verkleinern?</SavegameShrinker.ShrinkWorldPawnsDead>
+    <SavegameShrinker.ShrinkWorldPawnsMothballed>(gefährlich) In Reserve gestellte Weltbewohner verkleinern?</SavegameShrinker.ShrinkWorldPawnsMothballed>
+    <SavegameShrinker.DebugMode>Debug-Nachrichten ausgeben?</SavegameShrinker.DebugMode>
+</LanguageData>
+

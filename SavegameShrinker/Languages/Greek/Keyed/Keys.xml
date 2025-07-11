@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <SavegameShrinker.Shrink>Συμπίεση ({0}MB)</SavegameShrinker.Shrink>
+    <SavegameShrinker.ShrinkHistoricalArchives>(ασφαλές) Συμπίεση ιστορικών αρχείων;</SavegameShrinker.ShrinkHistoricalArchives>
+    <SavegameShrinker.ShrinkPlayLog>(ασφαλές) Συμπίεση αρχείου παιχνιδιού;</SavegameShrinker.ShrinkPlayLog>
+    <SavegameShrinker.ShrinkBattleLog>(ασφαλές) Συμπίεση αρχείου μάχης;</SavegameShrinker.ShrinkBattleLog>
+    <SavegameShrinker.ShrinkQuestsAutomatic>(ασφαλές) Συμπίεση αυτόματων αποστολών;</SavegameShrinker.ShrinkQuestsAutomatic>
+    <SavegameShrinker.RemoveFilth>(ασφαλές) Αφαίρεση ακαθαρσιών;</SavegameShrinker.RemoveFilth>
+    <SavegameShrinker.ShrinkTales>(λιγότερο ασφαλές) Συμπίεση ιστοριών;</SavegameShrinker.ShrinkTales>
+    <SavegameShrinker.ShrinkQuestsUnaccepted>(λιγότερο ασφαλές) Συμπίεση μη αποδεκτών αποστολών;</SavegameShrinker.ShrinkQuestsUnaccepted>
+    <SavegameShrinker.ShrinkWorldPawnsDead>(μεγάλη εξοικονόμηση) Συμπίεση νεκρών χαρακτήρων κόσμου;</SavegameShrinker.ShrinkWorldPawnsDead>
+    <SavegameShrinker.ShrinkWorldPawnsMothballed>(επικίνδυνο) Συμπίεση αποθηκευμένων χαρακτήρων κόσμου;</SavegameShrinker.ShrinkWorldPawnsMothballed>
+    <SavegameShrinker.DebugMode>Εμφάνιση μηνυμάτων εντοπισμού σφαλμάτων;</SavegameShrinker.DebugMode>
+</LanguageData>
+

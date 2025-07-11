@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <SavegameShrinker.Shrink>圧縮 ({0}MB)</SavegameShrinker.Shrink>
+    <SavegameShrinker.ShrinkHistoricalArchives>（安全）履歴アーカイブを圧縮しますか？</SavegameShrinker.ShrinkHistoricalArchives>
+    <SavegameShrinker.ShrinkPlayLog>（安全）プレイログを圧縮しますか？</SavegameShrinker.ShrinkPlayLog>
+    <SavegameShrinker.ShrinkBattleLog>（安全）バトルログを圧縮しますか？</SavegameShrinker.ShrinkBattleLog>
+    <SavegameShrinker.ShrinkQuestsAutomatic>（安全）自動クエストを圧縮しますか？</SavegameShrinker.ShrinkQuestsAutomatic>
+    <SavegameShrinker.RemoveFilth>（安全）汚れを削除しますか？</SavegameShrinker.RemoveFilth>
+    <SavegameShrinker.ShrinkTales>（やや危険）物語を圧縮しますか？</SavegameShrinker.ShrinkTales>
+    <SavegameShrinker.ShrinkQuestsUnaccepted>（やや危険）未受諾クエストを圧縮しますか？</SavegameShrinker.ShrinkQuestsUnaccepted>
+    <SavegameShrinker.ShrinkWorldPawnsDead>（大幅な節約）死亡した世界のポーンを圧縮しますか？</SavegameShrinker.ShrinkWorldPawnsDead>
+    <SavegameShrinker.ShrinkWorldPawnsMothballed>（危険）保管中の世界のポーンを圧縮しますか？</SavegameShrinker.ShrinkWorldPawnsMothballed>
+    <SavegameShrinker.DebugMode>デバッグメッセージを出力しますか？</SavegameShrinker.DebugMode>
+</LanguageData>
+

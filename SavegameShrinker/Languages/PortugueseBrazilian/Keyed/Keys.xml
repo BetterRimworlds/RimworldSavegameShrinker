@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <SavegameShrinker.Shrink>Reduzir ({0}MB)</SavegameShrinker.Shrink>
+    <SavegameShrinker.ShrinkHistoricalArchives>(seguro) Reduzir arquivos históricos?</SavegameShrinker.ShrinkHistoricalArchives>
+    <SavegameShrinker.ShrinkPlayLog>(seguro) Reduzir registro de jogo?</SavegameShrinker.ShrinkPlayLog>
+    <SavegameShrinker.ShrinkBattleLog>(seguro) Reduzir registro de batalha?</SavegameShrinker.ShrinkBattleLog>
+    <SavegameShrinker.ShrinkQuestsAutomatic>(seguro) Reduzir missões automáticas?</SavegameShrinker.ShrinkQuestsAutomatic>
+    <SavegameShrinker.RemoveFilth>(seguro) Remover sujeira?</SavegameShrinker.RemoveFilth>
+    <SavegameShrinker.ShrinkTales>(menos seguro) Reduzir relatos?</SavegameShrinker.ShrinkTales>
+    <SavegameShrinker.ShrinkQuestsUnaccepted>(menos seguro) Reduzir missões não aceitas?</SavegameShrinker.ShrinkQuestsUnaccepted>
+    <SavegameShrinker.ShrinkWorldPawnsDead>(grande economia) Reduzir colonos mortos do mundo?</SavegameShrinker.ShrinkWorldPawnsDead>
+    <SavegameShrinker.ShrinkWorldPawnsMothballed>(perigoso) Reduzir colonos inativos do mundo?</SavegameShrinker.ShrinkWorldPawnsMothballed>
+    <SavegameShrinker.DebugMode>Imprimir mensagens de depuração?</SavegameShrinker.DebugMode>
+</LanguageData>
+
