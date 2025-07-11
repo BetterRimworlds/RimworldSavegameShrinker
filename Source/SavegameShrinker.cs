@@ -10,6 +10,7 @@
  * This file is licensed under the MIT License.
  */
 
+using System.Text;
 using System.Xml;
 using Verse;
 
@@ -100,10 +101,17 @@ public class SaveGameShrinker
             this.removeFilth();
         }
 
-        XmlTextWriter writer = new XmlTextWriter(fileLocation, null);
-        writer.Formatting = Formatting.Indented;
-        writer.IndentChar = '\t';
-        writer.Indentation = 1;
+        using var writer = XmlWriter.Create(
+            fileLocation,
+            new XmlWriterSettings
+            {
+                Indent = true,
+                IndentChars = "\t",
+                NewLineChars = "\n",
+                // Ensures the BOM is added.
+                Encoding = new UTF8Encoding(encoderShouldEmitUTF8Identifier: true)
+            }
+        );
 
         doc.Save(writer);
     }
