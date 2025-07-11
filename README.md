@@ -97,6 +97,15 @@ marginal space savings and speed increases for Rimworld v1.2 and v1.3.
 
 
 ## Change Log
+**v1.2.0: 2025-07-11**
+
+* **[2025-07-11 06:38:30 CDT]** [m] Added a ./release.sh script for easy packaging.
+* **[2025-07-11 06:25:36 CDT]** Added translations for Chinese (Traditional), Dutch, Polish, Turkish, Ukrainian and Vietnamese.
+* **[2025-07-10 21:14:35 CDT]** Added translations for many languages.
+* **[2025-07-10 20:00:10 CDT]** Added support for Rimworld v1.6.
+* **[2025-07-10 19:40:35 CDT]** Ported to C# v10.
+* **[2025-07-10 19:29:54 CDT]** Migrated to a modern dotnet SDK project.
+* **[2024-05-06 14:31:51 CDT]** Added translation support.
 
 **v1.1.0: 2023-03-14**
 
