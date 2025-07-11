@@ -98,6 +98,17 @@ marginal space savings and speed increases for Rimworld v1.2 and v1.3.
 
 ## Change Log
 
+**v1.2.0: 2025-07-11**
+
+* **[2025-07-11 07:02:47 CDT]** Fixed the missing BOM bug.
+* **[2025-07-11 06:38:30 CDT]** [m] Added a ./release.sh script for easy packaging.
+* **[2025-07-11 06:25:36 CDT]** Added translations for Chinese (Traditional), Dutch, Polish, Turkish, Ukrainian and Vietnamese.
+* **[2025-07-10 21:14:35 CDT]** Added translations for many languages.
+* **[2025-07-10 20:00:10 CDT]** Added support for Rimworld v1.6.
+* **[2025-07-10 19:40:35 CDT]** Ported to C# v10.
+* **[2025-07-10 19:29:54 CDT]** Migrated to a modern dotnet SDK project.
+* **[2024-05-06 14:31:51 CDT]** Added translation support.
+
 **v1.1.0: 2023-03-14**
 
 * **[2024-03-14 19:25:36 CDT]** Upgraded to Rimworld v1.5.
@@ -107,3 +118,32 @@ marginal space savings and speed increases for Rimworld v1.2 and v1.3.
 **v1.0.0: 2023-05-21**
 
 * **[2023-05-21 04:47:11 CDT]** All of the initial work. 
+
+## Translations
+
+This mod is translated into a wide array of translations. Here is the table:
+
+| Language              | Native Speakers | Total with 2nd Language | Notes                                   |
+|-----------------------|-----------------|-------------------------|-----------------------------------------|
+| English               | \~380M          | \~1.5B+                 | World’s #1 2nd language                 |
+| Chinese (Mandarin)    | \~1.0B          | \~1.40B                 | Official in China, Taiwan, Singapore    |
+| Spanish               | \~496M          | \~560M                  | Most of Latin America, Spain            |
+| Portuguese (BR)       | \~221M          | \~265M                  | Brazil, Portugal, Africa                |
+| Russian               | \~154M          | \~258M                  | Russia, Central Asia                    |
+| Japanese              | \~125M          | \~126M                  | Japan                                   |
+| Korean                | \~78M           | \~82M                   | South/North Korea                       |
+| French                | \~80M           | \~312M                  | France, Canada, Africa                  |
+| German                | \~76M           | \~134M                  | Germany, Austria, Switzerland           |
+| Italian               | \~65M           | \~66M                   | Italy, Switzerland                      |
+| Chinese (Traditional) | \~40M           | \~50M                   | Taiwan, Hong Kong, Macau; some expats   |
+| Romanian              | \~24M           | \~28M                   | Romania, Moldova                        |
+| Greek                 | \~13M           | \~13M                   | Greece, Cyprus                          |
+| Polish                | \~45M           | \~45M                   | Poland                                  |
+| Turkish               | \~85M           | \~85M                   | Turkey, Cyprus                          |
+| Vietnamese            | \~85M           | \~85M                   | Vietnam                                 |
+| Ukrainian             | \~35M           | \~35M                   | Ukraine                                 |
+| Dutch                 | \~23M           | \~28M                   | Netherlands, Belgium, Suriname          |
+| --------------------- | --------------- | ----------------------- | --------------------------------------- |
+| Total                 | 3,025B          | 5,252B                  | ~98% of RimWorld players                |
+
+
