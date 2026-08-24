@@ -98,6 +98,11 @@ marginal space savings and speed increases for Rimworld v1.2 and v1.3.
 
 ## Change Log
 
+**v1.3.0: 2026-08-24**
+
+* **[2026-08-24 16:33:13 EEST]** Recompiled for latest Rimworld v1.6.
+* **[2026-08-24 16:30:27 EEST]** Set sane defaults.
+
 **v1.2.0: 2025-07-11**
 
 * **[2025-07-11 07:02:47 CDT]** Fixed the missing BOM bug.

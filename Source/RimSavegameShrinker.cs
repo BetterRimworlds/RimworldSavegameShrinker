@@ -63,8 +63,11 @@ public class Patch_FileList
 
         if (Widgets.ButtonText(TargetRect, "SavegameShrinker.Shrink".Translate(fileSize.ToString())))
         {
-            string shortFileName = sfi.FileInfo.Name;
-            Log.Error($"++++++++++ Shrinking SaveGame {shortFileName} +++++++");
+            if (settings.debugMode)
+            {
+                string shortFileName = sfi.FileInfo.Name;
+                Log.Error($"++++++++++ Shrinking SaveGame {shortFileName} +++++++");
+            }
 
             shrinker.shrinkSavegame(fileLocation);
         }
