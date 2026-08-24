@@ -6,15 +6,15 @@ namespace BetterRimworlds.SavegameShrinker;
 
 public class Settings: ModSettings
 {
-    public bool shrinkHistoricalArchives;
+    public bool shrinkHistoricalArchives = true;
     public bool shrinkTales;
-    public bool shrinkPlayLog;
-    public bool shrinkBattleLog;
-    public bool shrinkQuestsAutomatic;
-    public bool shrinkQuestsUnaccepted;
+    public bool shrinkPlayLog = true;
+    public bool shrinkBattleLog = true;
+    public bool shrinkQuestsAutomatic = true;
+    public bool shrinkQuestsUnaccepted = true;
     public bool shrinkWorldPawnsMothballed;
     public bool shrinkWorldPawnsDead;
-    public bool removeFilth;
+    public bool removeFilth = true;
 
     public bool debugMode = false;
 

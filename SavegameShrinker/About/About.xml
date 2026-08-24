@@ -31,4 +31,7 @@ Backups are made before each shrinking operation, so you can rest secure.
             <downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077</downloadUrl>
         </li>
     </modDependencies>
+    <loadAfter>
+        <li>brrainz.harmony</li>
+    </loadAfter>
 </ModMetaData>
