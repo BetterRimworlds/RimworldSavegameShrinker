@@ -15,7 +15,7 @@ MOD=$(basename $PWD)
 solutionPath="Source/${MOD}.sln"
 
 # Define an array of configurations
-configurations=("v1.2" "v1.3" "v1.4" "v1.5" "v1.6")
+configurations=("v1.2" "v1.3" "v1.4" "v1.5" "v1.6" "v1.7")
 
 dotnet restore "$solutionPath"
 
@@ -31,13 +31,13 @@ function sync_mod() {
     rm -rf /rimworld/1.4/Mods/${MOD}
     rm -rf /rimworld/1.5/Mods/${MOD}
     rm -rf /rimworld/1.6/Mods/${MOD}
-    rm -rf /rimworld/1.6-steam/Mods/${MOD}
+    rm -rf /rimworld/1.7-steam/Mods/${MOD}
 
     cp -af /rimworld/1.2/Mods/${MOD} /rimworld/1.3/Mods
     cp -af /rimworld/1.2/Mods/${MOD} /rimworld/1.4/Mods
     cp -af /rimworld/1.2/Mods/${MOD} /rimworld/1.5/Mods
     cp -af /rimworld/1.2/Mods/${MOD} /rimworld/1.6/Mods
-    cp -af /rimworld/1.2/Mods/${MOD} /rimworld/1.6-steam/Mods
+    cp -af /rimworld/1.2/Mods/${MOD} /rimworld/1.7-steam/Mods
 }
 
 function build() {

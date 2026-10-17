@@ -98,6 +98,10 @@ marginal space savings and speed increases for Rimworld v1.2 and v1.3.
 
 ## Change Log
 
+**v1.4.0: 2026-10-17**
+
+* **[2026-10-17 22:44:18 EEST]** Rimworld v1.7 + Waylith support.
+
 **v1.3.0: 2026-08-24**
 
 * **[2026-08-24 16:33:13 EEST]** Recompiled for latest Rimworld v1.6.
